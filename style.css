@@ -1,23 +1,20 @@
-/* 		CONTENTS 	*/
-/*					*/
-/* 		reset 		*/
-/*		global		*/
-/*		layout		*/
-/*		text		*/
-/*		lists		*/
-/*		tables		*/
-/*		forms		*/
-/*		images		*/
+/*
+	CONTENTS
+	
+	reset
+	global
+	text
+	lists
+	tables
+	forms
+	images
+	layout
+*/
 
 /* reset */
 
-blockquote,
 body,
-code,
-dd,
 div,
-dl,
-dt,
 fieldset,
 form,
 html,
@@ -32,7 +29,6 @@ legend,
 li,
 ol,
 p,
-pre,
 textarea,
 td,
 th,
@@ -44,129 +40,178 @@ ul
 
 /* global */
 
-body {
+body
+{
 	background: #fff;
 	color: #000;
 	font-family: Verdana;
-	font-size: 62.5%;
-}
-
-/* layout */
-
-#container {
-	margin: 30px auto;
-	width: 960px;
-}
-
-#page {
-	float: left;
-	width: 960px;
+	font-size: 11px;
 }
 
 /* text */
 
-h1 {
-	font-size: 2em;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
-
-h2 {
-	font-size: 1.8em;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
-
-h3 {
-	font-size: 1.6em;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
-
-h4 {
-	font-size: 1.4em;
-	font-weight: bold;
-	margin-bottom: 10px;
-}
-
-h5 {
-	font-size: 1.2em;
-	font-weight: bold;
-	margin-bottom: 10px;
-}
-
-p {
-	font-size: 1.1em;
-	margin-bottom: 10px;
-}
-
-a {
+a
+{
 	color: #0000ff;
 	text-decoration: none;
 }
 
-	a:hover {
+	a:hover 
+	{
 		text-decoration: underline;
 	}
-	
-/* lists */
 
-ol, ul {
-	font-size: 1.1em;
-	margin-left: 30px;
+h1
+{
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
-li {
-	padding-left: 30px;
+h2
+{
+	font-size: 19px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+h3
+{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+h4
+{
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h5
+{
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+p
+{
+	margin-bottom: 10px;
+}
+
+/* lists */
+
+ol, ul 
+{
+	margin: 0 0 10px 30px;
+}
+
+	li ol,
+	li ul, 
+	li ol li ol,
+	li ol li ul,
+	li ul li ol, 
+	li ul li ul
+	{
+		margin-bottom: 0;
+	}
+
+li
+{
+	margin-bottom: 5px;
 }
 
 /* tables */
 
-table {
+table
+{
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-td, th {
-	padding: 2px;
+td, th
+{
+	padding: 2px 5px;
 	text-align: left;
 }
 
-th {
+th
+{
 	font-weight: bold;
 }
 
 /* forms */
 
-.error {
+.error
+{
 	color: #ff0000;
 }
 
-fieldset {
+fieldset
+{
 	border: 1px solid #000;
-	padding-left: 50px;
+	padding: 25px;
 }
 
-input.textbox {
+input.textbox
+{
 	width: 200px;
 }
 
-input.textbox-small {
+input.textbox-small
+{
 	width: 50px;
 }
 
-legend {
+legend
+{
 	border: 1px solid #000;
 	padding: 2px;
 }
 
-textarea {
+textarea
+{
 	width: 200px;
 	height: 300px;
 }
 
 /* images */
 
-img {
+img
+{
 	border: 0;
+}
+
+/* layout */
+
+#container
+{
+	margin: 30px auto;
+	width: 960px;
+}
+
+#page
+{
+	float: left;
+	width: 960px;
+}
+
+#header
+{
+	float: left;
+	width: 960px;
+}
+
+#main
+{
+	float: left;
+	width: 960px;
+}
+
+#footer
+{
+	float: left;
+	width: 960px;
 }
